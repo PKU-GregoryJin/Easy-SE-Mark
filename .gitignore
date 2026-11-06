@@ -1,0 +1,48 @@
+# Source-only repository: ignore every top-level entry unless explicitly allowed.
+/*
+
+# Repository rules, project configuration and license (not development documentation).
+!/.gitignore
+!/Directory.Build.props
+!/global.json
+!/NuGet.Config
+!/LICENSE
+
+# Application code, XAML, project files, icons, dependency lock and native manifest.
+!/src/
+
+# Never include generated binaries, IDE state or local files inside src.
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.exp
+*.user
+*.suo
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+
+# Scripts, documentation, test media and archives are not part of this repository.
+*.ps1
+*.sh
+*.cmd
+*.bat
+*.md
+*.txt
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mp3
+*.wav
+*.zip
+*.7z
+*.rar

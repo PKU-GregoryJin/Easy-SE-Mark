@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <AssemblyName>Easy SE Mark</AssemblyName><RootNamespace>EasySE.App</RootNamespace>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <Version>0.1.0-alpha</Version><Product>Easy SE Mark</Product><Title>Easy SE Mark</Title><PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier><SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile><PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../EasySE.Core/EasySE.Core.csproj" /><ProjectReference Include="../EasySE.Media/EasySE.Media.csproj" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets\app.ico" /></ItemGroup>
+</Project>

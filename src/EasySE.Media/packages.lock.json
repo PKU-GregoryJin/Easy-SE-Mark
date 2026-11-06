@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0-windows7.0": {
+      "FFmpeg.AutoGen": {
+        "type": "Direct",
+        "requested": "[9.0.1.1, )",
+        "resolved": "9.0.1.1",
+        "contentHash": "+BLh0C8VET4aMUorxr/LMZAgmKl2PYSoY7Qm4PJ4eePx/LT2gIHkxOUnlGM91QETgfsnSZajHx9rK0d67ilpgw=="
+      },
+      "easyse.core": {
+        "type": "Project"
+      }
+    }
+  }
+}

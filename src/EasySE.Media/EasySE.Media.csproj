@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0-windows</TargetFramework><AllowUnsafeBlocks>true</AllowUnsafeBlocks><RestorePackagesWithLockFile>true</RestorePackagesWithLockFile></PropertyGroup>
+  <ItemGroup><PackageReference Include="FFmpeg.AutoGen" Version="9.0.1.1"/><ProjectReference Include="../EasySE.Core/EasySE.Core.csproj"/></ItemGroup>
+  <ItemGroup><EmbeddedResource Include="Native/*.dll"/><EmbeddedResource Include="Native/manifest.json"/></ItemGroup>
+</Project>
